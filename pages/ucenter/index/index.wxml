@@ -48,7 +48,10 @@
     <view class='user_row_left'>核心服务</view>
   </view>
   <view class='user_column'>
-
+    <view class='user_column_item' bindtap='goFootprint'>
+      <image class='user_column_item_image' src='/static/images/footprint.png'></image>
+      <view class='user_column_item_text'>充值会员</view>
+    </view>
     <view class='user_column_item' bindtap='goCoupon'>
       <image class='user_column_item_image' src='/static/images/coupon.png'></image>
       <view class='user_column_item_text'>优惠卷</view>
@@ -59,7 +62,7 @@
     </view>
     <view class='user_column_item' bindtap='goFootprint'>
       <image class='user_column_item_image' src='/static/images/footprint.png'></image>
-      <view class='user_column_item_text'>充值会员</view>
+      <view class='user_column_item_text'>浏览足迹</view>
     </view>
     <!-- <view class='user_column_item' bindtap='goGroupon'>
       <image class='user_column_item_image' src='/static/images/group.png'></image>

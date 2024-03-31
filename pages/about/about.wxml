@@ -1,6 +1,6 @@
 <view class="container">
 
-  <view class="label">项目名称:</view>
+  <!-- <view class="label">项目名称:</view>
   <view class="about-item">
     <view class="item-left">
       <text>{{name}}</text> 
@@ -15,7 +15,7 @@
     <view class="item-right" bindtap="showLocation">
       <van-icon class="right-icon" name="location-o" />    
     </view>
-  </view>
+  </view> -->
 
   <view class="label">电话号码:</view>
   <view class="about-item">
